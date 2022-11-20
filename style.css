@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 50%;
+	background-color: #ddd;
+	border-radius: 10px;
+	
+}
+
+.scanner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 3px 3px 3px #000;
+}
+
+.QrImage {
+	width: 200px;
+	height: 200px;
+}
